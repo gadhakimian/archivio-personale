@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Archivio personale</title>
+<style>
+  :root { color-scheme: light dark; --bg: #fbf8f1; --fg: #172133; --muted: #5b6678; --line: #ddd5c4; --accent: #94701f; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0b1220; --fg: #f2ede3; --muted: #97a3b6; --line: #24324a; --accent: #d4b06a; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 Georgia, "Times New Roman", serif; }
+  main { max-width: 40rem; margin: 0 auto; padding: 3rem 1rem 4rem; }
+  h1 { font-size: 2rem; margin: 0 0 .5rem; }
+  p.lead { color: var(--muted); margin-top: 0; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  a { color: var(--accent); }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Archivio personale</h1>
+  <p class="lead">A private desktop tool that keeps an organized copy of its owner's own documents in a folder of the owner's Google Drive.</p>
+
+  <h2>What it does</h2>
+  <p>The tool runs only on its owner's computer. When the owner's documents change, it creates folders in the owner's Google Drive, uploads the new versions, keeps the previous versions in a separate folder and adds shortcuts to the folders that are currently in use. It is not offered to other people.</p>
+
+  <h2>Access to Google Drive</h2>
+  <p>The tool asks Google only for the <code>drive.file</code> permission: it can see and change only the files and folders it has created itself. It cannot read any other file in the owner's Drive. The owner can remove the permission at any time from <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
+
+  <p><a href="privacy.html">Privacy policy</a></p>
+
+  <footer>Archivio personale · <a href="privacy.html">Privacy policy</a></footer>
+</main>
+</body>
+</html>
